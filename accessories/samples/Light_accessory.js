@@ -19,7 +19,7 @@ var FAKE_LIGHT = {
   identify: function() {
     console.log("Identify the light!");
   }
-}
+};
 
 // Generate a consistent UUID for our light Accessory that will remain the same even when
 // restarting our server. We use the `uuid.generate` helper function to create a deterministic
@@ -89,4 +89,4 @@ light
   .on('set', function(value, callback) {
     FAKE_LIGHT.setBrightness(value);
     callback();
-  })
+  });

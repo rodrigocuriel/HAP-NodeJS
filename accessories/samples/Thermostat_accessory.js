@@ -1,8 +1,8 @@
 // HomeKit types required
-var types = require("./types.js")
+var types = require("./types.js");
 var exports = module.exports = {};
 
-var execute = function(accessory,characteristic,value){ console.log("executed accessory: " + accessory + ", and characteristic: " + characteristic + ", with value: " +  value + "."); }
+var execute = function(accessory,characteristic,value){ console.log("executed accessory: " + accessory + ", and characteristic: " + characteristic + ", with value: " +  value + "."); };
 
 exports.accessory = {
   displayName: "Thermostat 1",

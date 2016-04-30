@@ -14,7 +14,7 @@ var FAKE_SENSOR = {
     // randomize temperature to a value between 0 and 100
     FAKE_SENSOR.currentTemperature = Math.round(Math.random() * 100);
   }
-}
+};
 
 
 // Generate a consistent UUID for our Temperature Sensor Accessory that will remain the same
